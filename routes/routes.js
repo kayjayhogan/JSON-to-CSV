@@ -1,11 +1,11 @@
-const controllers = require('./controller.js');
+const controller = require('./controller.js');
 const express = require('express');
 const router = express.Router();
 
 router
   .route('')
-  .get(controllers.get)
-  .post(controllers.post)
+  .get(controller.get)
+  .post(controller.post)
 
 
 module.exports = router;
