@@ -1,0 +1,24 @@
+{
+  "name": "json-to-csv",
+  "version": "1.0.0",
+  "description": "A JSON to CSV converter",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayjayhogan/JSON-to-CSV.git"
+  },
+  "author": "Kathleen Hogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayjayhogan/JSON-to-CSV/issues"
+  },
+  "homepage": "https://github.com/kayjayhogan/JSON-to-CSV#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
