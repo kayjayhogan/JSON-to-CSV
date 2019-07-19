@@ -12,3 +12,4 @@ npm install
 ```
 npm run start
 ```
+Sample data is included should you wish to test the converter functionality.
