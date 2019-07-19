@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", Helvetica, sans-serif;
+  padding-left: 30px;
 }
 
 textarea {
@@ -18,4 +19,9 @@ button {
   width: 150px;
   height: 50px;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 30px;
 }
